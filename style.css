@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -120,4 +121,121 @@ button:hover {
 section {
     margin: 20px;
     padding: 10px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #028FA3;
+    color: white;
+    padding: 20px 0;
+}
+
+.name {
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+nav a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #006e7c;
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1, h3 {
+    color: #333;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    background-color: #98f3ff;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cv {
+    margin: 20px;
+    padding: 20px;
+}
+
+.work-experience {
+    gap: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.work-item img{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.table-heading th{
+    background-color: #028FA3;
+    color: #ffffff;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+>>>>>>> 7bf2b5cc9b00e4234aeb5ed52e2d44162d93945f
 }
